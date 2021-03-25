@@ -1,0 +1,55 @@
+<!-- always required for html5 document-->
+<DOCTYPE! html>
+
+<!-- comment in html is written like this.  I will write comments above their relative code -->
+
+
+<!-- html tag to define this is the content of the html doc -->
+<!-- [  lang  ] to identify doc language to browser.[  "en-US"  ] standard. -->
+<html lang="en-US">
+    
+    <!-- [  head  ] contains information for the page, [  title  ] etc. 'metadata'. this info is read only by the browser, it does not display anywhere on the page or take any space -->
+    <head>
+        <!-- info displayed at the top of the tab/browser window. -->
+         <!-- note location of text.comments cannot go inside title, see result -->
+        <title>
+            <!--odd-->
+           !Tab Name!
+        </title>
+
+        <!-- inside style tags in head is embedded css -->
+        <style>
+            body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    background-color:rgb(231, 200, 200)}
+            samp {background-color: rgba(12, 130, 160, 0.582);
+                    color:cyan;
+                }
+            code  {
+                background-color: rgba(99, 94, 94, 0.514);
+                color: rgb(0, 17, 255);}
+
+            body
+            a {
+                font-family: Verdana, sans-serif;
+                color: rgba(21, 169, 206, 0.781);
+                font-weight: 500;
+            }
+        </style>
+    </head>
+    <!-- [  body  ] contains all displayable content of the webpage. css and js is applied to the content of the body -->
+    <body>
+        <!-- note location -->
+        Hello World!
+
+        <!-- opening tags [  <body>  ] begin an element. they may have attributes eg [  color  ] -->
+
+        <!-- closing tags [  < / body>  ] have a [  /  ] before the repeat of the first tag.  they can have no additional attributes.-->
+        
+        <!-- Note actual syntax inline!  < is displayed using &lt; -->
+        To write code into HTML docs, use the <samp>&lt;samp&gt;</samp> (for computer output/replies from computer) or <code>&lt;code&gt;</code> tags.  The styling is not automatic, it is embedded in the head of this doc.
+        <!-- elements may be self closing [  <img>  ] if they cannot contain content.[  <br>  ] [  <hr>  ] are two more examples.  [  /  ] is required for older html4 docs, unecessary now.-->
+
+        <p><a href="../contents.html">Contents Page</a></p>
+    </body>
+<!-- close tags required on most tags -->
+</html>

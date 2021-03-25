@@ -1,0 +1,45 @@
+p {
+    color: rgb(173, 3, 3);
+}
+body {background-color:rgb(231, 200, 200);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    
+code {
+        
+        background-color: rgba(99, 94, 94, 0.514);
+
+        color: rgb(0, 17, 255);
+    }
+samp {
+    
+    background-color: rgba(12, 130, 160, 0.582);
+    color:cyan}
+kbd {
+        background-color: #eee;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+        color: #333;
+        display: inline-block;
+        font-size: .85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+    }
+
+    .gold {
+        color:rgb(255, 196, 0);
+    }
+    .green {
+        color: rgb(12, 247, 12);
+    }
+    .blue {
+        color: rgb(7, 7, 199);
+    }
+
+a {
+    font-family: Verdana, sans-serif;
+    color: rgba(21, 169, 206, 0.781);
+    font-weight: 500;
+}

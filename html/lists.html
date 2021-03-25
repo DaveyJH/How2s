@@ -1,0 +1,62 @@
+<DOCTYPE! html>
+<html lang="en-US">
+    <head>
+        <title>Lists</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <style>
+            body {background-color:rgb(231, 200, 200)}
+            li {
+                color: rgb(173, 3, 3);
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h1>Lists</h1>
+
+        <h2>Ordered Lists</h2>
+        <ol><li>Items in a list.</li>
+            <li>Items will be numbered.</li>
+            <li>Used for things which must stay in order.</li>
+            <li>The steps of making a recipe for example.</li>
+        </ol>
+
+        <p>Ordered lists use an opening tag of <code>&#60;ol&#62;</code> followed by a nested <code>&#60;li&#62;</code> item.
+            <br>Each <code>&#60;li&#62;</code> is closed with <code>&#60;&#47;li&#62;</code> The final item is closed and then has the closing tag of the ordered list <code>&#60;&#47;ol&#62;</code>
+        </p>
+
+        <p>Ordered lists have a number of attributes which can be applied.</p>
+        
+        <ul><li><code class="gold">&#160;reversed&#160;</code> Reverses number order.</li>
+            <li><code class="gold">&#160;start=<span class="green">&#34;123&#34;&#160;</span></code> Choose a number to start the list from.</li>
+            <li><code class="gold">&#160;type=<span class="green">&#34;A&#34;&#160;</span></code> Set the type of numbering.  This is used for legal docs and docs where the numbering system is used for referencing.  Can be applied to individual list elements or the entire list.
+                <ul><li><code class="green">&#160;a&#160;</code>Lowercase letters.</li>
+                    <li><code class="green">&#160;A&#160;</code>Uppercase letters.</li>
+                    <li><code class="green">&#160;i&#160;</code>Lowercase roman numerals.</li>
+                    <li><code class="green">&#160;I&#160;</code>Uppercase roman numerals.</li>
+                    <li><code class="green">&#160;1&#160;</code>Numbers (default).</li>
+                </ul>
+            </li>
+        </ul>
+                    
+
+        <h2>Unordered Lists</h2>
+        <ul><li>Items in a list.</li>
+            <li>Items will be bullet pointed.</li>
+            <li>Used for things which the order is not important.</li>
+            <li>An ingredients list for example.</li>
+        </ul>
+       
+        <p>Unordered lists use an opening tag of <code>&#60;ul&#62;</code> followed by a nested <code>&#60;li&#62;</code> item.
+            <br>Each <code>&#60;li&#62;</code> is closed with <code>&#60;&#47;li&#62;</code> The final item is closed and then has the closing tag of the ordered list <code>&#60;&#47;ul&#62;</code><br>
+            Bullet point style can be styled using the css <code class="gold">list-style-type</code> property.
+        </p>
+
+        <h2>Nested Lists</h2>
+        <p>Nests can be listed inside each other.  There is no rule on unordered and ordered.  See code above for basic list nesting.
+        </p>
+            
+        <p><a href="../contents.html">Contents Page</a></p>
+
+    </body>
+</html>
