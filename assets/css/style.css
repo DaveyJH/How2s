@@ -45,3 +45,7 @@ a {
     color: rgba(21, 169, 206, 0.781);
     font-weight: 500;
 }
+
+li {
+    color: rgb(92, 9, 9);
+}
