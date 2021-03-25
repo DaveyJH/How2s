@@ -1,8 +1,10 @@
 p {
     color: rgb(173, 3, 3);
 }
-body {background-color:rgb(231, 200, 200);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body {
+    background-color:rgb(231, 200, 200);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
     
 code {
         

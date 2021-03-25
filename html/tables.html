@@ -3,11 +3,141 @@
     <head>
         <title>Tables</title>
         <link rel="stylesheet" href="../assets/css/style.css">
-        
+        <style>
+            /* css below formats table and cells (some is in following code) */
+            table {
+                border: 2px solid rgb(115, 192, 255);
+                background-color: whitesmoke;
+                color: rgb(0, 17, 255);
+                padding: 20px;
+                width: 800px;
+
+            }
+
+            td {
+                padding-top: 28px;
+                text-align: center;
+            }
+
+            /* make the table example look right. */
+            #tables {
+                border: 2px solid rgb(115, 192, 255);
+                background-color: whitesmoke;
+                color: rgb(0, 17, 255);
+                padding: 20px;
+                width: 800px;
+            }
+
+            
+            .row {
+                padding: 15px;
+                background-color: darkkhaki;
+                display: flex;
+                height: 100px;
+                margin: 10px;
+                position: relative;
+            }
+
+            .row>div {
+                margin: 10px;
+                color:purple;
+                position: relative;
+            }
+            
+            .row code  {
+                background-color: rgb(180, 180, 180);
+                font-weight: initial;
+            }
+            
+            .heading {
+                background-color:rgba(219, 81, 150, 0.55);
+                font-weight: 600;
+                flex:1;
+            }
+
+            .data {
+                background-color:rgba(81, 219, 155, 0.55);
+                font-weight: 600;
+                flex:1;
+            }
+            
+            .row span {
+                position: relative;
+                right: 25px;
+                top: 84px;
+            }
+
+            .heading, .data > div {
+                padding-top: 28px;
+                text-align: center;
+            }
+        </style>
     
     </head>
     <body>
         <h1>Tables</h1>
+
+        <p>Tables are used for data.  Consisting of a table <code>&#60;table&#62;</code>, table rows <code>&#60;tr&#62;</code>, table headings <code>&#60;th&#62;</code> and table data <code>&#60;td&#62;</code>.
+            <br>Each element requires a closing tag.</p>
+
+        <h2>The format of a table is as follows:</h2>
+
+        
+        <div id="tables">
+            <code>&#60;table&#62;</code>
+            <div class="row"><code>&#60;tr&#62;</code>
+                <span><code>&#60;&#47;tr&#62;</code></span>
+               
+                <div class="heading"><div><code>&#60;th&#62;</code>Heading 1<code>&#60;&#47;th&#62;</code></div></div>
+                <div class="heading"><div><code>&#60;th&#62;</code>Heading 2<code>&#60;&#47;th&#62;</code></div></div>
+                <div class="heading"><div><code>&#60;th&#62;</code>Heading 3<code>&#60;&#47;th&#62;</code></div></div>
+            </div>
+            <div class="row"><code>&#60;tr&#62;</code>
+                <span><code>&#60;&#47;tr&#62;</code></span>
+               
+                <div class="data"><div><code>&#60;td&#62;</code>1st Data - H1<code>&#60;&#47;td&#62;</code></div></div>
+                <div class="data"><div><code>&#60;td&#62;</code>1st Data - H2<code>&#60;&#47;td&#62;</code></div></div>
+                <div class="data"><div><code>&#60;td&#62;</code>1st Data - H3<code>&#60;&#47;td&#62;</code></div></div>
+            </div>
+            <div class="row"><code>&#60;tr&#62;</code>
+                <span><code>&#60;&#47;tr&#62;</code></span>
+               
+                <div class="data"><div><code>&#60;td&#62;</code>2nd Data - H1<code>&#60;&#47;td&#62;</code></div></div>
+                <div class="data"><div><code>&#60;td&#62;</code>2nd Data - H2<code>&#60;&#47;td&#62;</code></div></div>
+                <div class="data"><div><code>&#60;td&#62;</code>2nd Data - H3<code>&#60;&#47;td&#62;</code></div></div>
+            </div>
+            <code>&#60;&#47;table&#62;</code>
+        </div>
+
+        <p>See code for simple example</p>
+
+        
+
+            <table>
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+                <tr>
+                    <td>Data1Heading1</td>
+                    <td>Data1Heading2</td>
+                    <td>Data1Heading3</td>
+                </tr>
+                <tr>
+                    <td>Data2Heading1</td>
+                    <td>Data2Heading2</td>
+                    <td>Data2Heading3</td>
+                </tr>
+            </table>
+
+        
+            
+            
+
+
+
+                
         <p><a href="../contents.html">Contents Page</a></p>
     </body>
 </html>
