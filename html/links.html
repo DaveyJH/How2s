@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
-        <h1 id="return">Links</h1>
+        <h1>Links</h1>
         <p><a href="#internal">Skip to internal and read how!</a></p>
         <p>Anchor element tag contains an href attribute with a value of the path name to the link.</p>
         <h2>External Links</h2>
@@ -13,7 +13,7 @@
         <p>External links provide a hyperlink to another website.  They can also be used to download files.</p>
         <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"https://linkedin.com/in/davejhorrocks" <span class="gold">target</span>=<span class="green">&quot;&#95;blank&quot;</span><span class="blue">&#62;</span></code>Clickable text is here eg. <a href="https://linkedin.com/in/davejhorrocks" target="_blank" rel="noopener">LinkedIn</a><code class="blue">&#60;&#47;a&#62;</code></p>
         
-        <h3>Target</h3>
+        <h3 id="target">Target<i class="fas fa-bullseye"></i></h3>
         <p>The target attribute defines how the link is to be opened.
             <ul>
             <li><code class="green">&nbsp;&#95;blank</code><span>&#160;Opens the linked doc in a new tab or window.</span></li>
@@ -40,15 +40,16 @@
                 <li><code class="green">&nbsp;tag</code><span>&#160;A tag (keyword) for the current document</span></li>
             </ul>
         </p>
-        <div style="height: 50vh"></div>
+        <div style="height: 25vh; font-size: 200px; overflow:hidden; margin-top: -40px;">&#8595;&#8595;&#8595;&#8595;</div>
+        <br>
         <h2 id="internal">Internal Links</h2>
 
-        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"#id-name" <span class="blue">&#62;</span></code><a href="#">Clickable text is here</a><code class="blue">&#60;&#47;a&#62;</code></p>
+        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"#id-name" <span class="blue">&#62;</span></code><a href="#target">Clickable text is here</a><code class="blue">&#60;&#47;a&#62;</code></p>
         
-        <p>A link to an element within the same page.<br>the href value of an internal link must match the id of an element preceeded with a # .</p><p>If the id-name is omitted and just a # is present, the page will reload.  You can still apply a target to this.</p>
+        <p>A link to an element within the same page.<br>The href value of an internal link must match the id of an element preceeded with a # .</p><p>If the id-name is omitted and just a # is present, the page will reload.  You can still apply a target to this, eg. <code class="green">&nbsp;&#95;blank</code></p>
 
-        <p><a href="#return" target="_blank">Try it here!</a></p>
-
+        <p><a href="#" target="_blank">Try it here!</a></p>
+        <hr>
         <p><a href="../contents.html">Contents Page</a></p>
 
 
