@@ -2,7 +2,7 @@ p {
     color: rgb(173, 3, 3);
 }
 body {
-    background-color:rgb(231, 200, 200);
+    background-color:rgb(201, 231, 200);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
     
@@ -63,4 +63,16 @@ li {
 
 .high-light {
     background-color: #a460db;
+}
+.wipeout {
+    background-color: rgb(231, 200, 200);
+}
+.dark {
+    color: rgb(92, 9, 9);
+}
+
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }

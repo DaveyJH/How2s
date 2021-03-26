@@ -5,61 +5,91 @@
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
+
         <h1>Anchor</h1>
-        <p><a href="#internal">Skip to internal and read how!</a></p>
-        <p>Anchor element tag contains an href attribute with a value of the path name to the linked document.</p>
+
+        <div>
+            <p><a href="#internal">Skip to internal and read how!</a>
+            </p>
+            <p>Anchor element tag contains an href attribute with a value of the path name to the linked document.
+            </p>
+        </div>
+
         <h2>External Links</h2>
 
-        <p>External links provide a hyperlink to another website.  They can also be used to download files.</p>
-        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"https://linkedin.com/in/davejhorrocks" <span class="gold">target</span>=<span class="green">&quot;&#95;blank&quot;</span><span class="blue">&#62;</span></code>Clickable text is here eg. <a href="https://linkedin.com/in/davejhorrocks" target="_blank" rel="noopener">LinkedIn</a><code class="blue">&#60;&#47;a&#62;</code></p>
+        <div>
+        <p>External links provide a hyperlink to another website.  They can also be used to download files.
+        </p>
+        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"https://linkedin.com/in/davejhorrocks" <span class="gold">target</span>=<span class="green">&quot;&#95;blank&quot;</span><span class="blue">&#62;</span></code>Clickable text is here eg. <a href="https://linkedin.com/in/davejhorrocks" target="_blank" rel="noopener">LinkedIn</a><code class="blue">&#60;&#47;a&#62;</code>
+        </p>
+        </div>
         
-        <h3 id="target">Target<i class="fas fa-bullseye"></i></h3>
-        <p>The target attribute defines how the anchor is to be opened.
-            <ul>
-            <li><code class="green">&nbsp;&#95;blank</code><span>&#160;Opens the linked doc in a new tab or window.</span></li>
-            <li><code class="green">&nbsp;&#95;self</code><span>&#160;Opens the linkes doc in the same frame as it was clicked [ default ]</span></li>
-            <li><code class="green">&nbsp;&#95;parent</code><span>&#160;opens the linked doc in the parent frame.</span></li>
-            <li><code class="green">&nbsp;&#95;top</code><span>&#160;Opens the linked doc in the full body of the window.</span></li>
-            <li><code class="green">&nbsp;name-of-iframe</code><span>&#160;Opens the linked doc in the named iframe.</span></li></ul></p>
+        <h3 id="target">Target</h3>
+        <div>
+            <p>The target attribute defines how the anchor is to be opened.
+                <ul>
+                    <li><code class="green">&nbsp;&#95;blank</code><span>&#160;Opens the linked doc in a new tab or window.</span></li>
+                    <li><code class="green">&nbsp;&#95;self</code><span>&#160;Opens the linkes doc in the same frame as it was clicked [ default ]</span></li>
+                    <li><code class="green">&nbsp;&#95;parent</code><span>&#160;opens the linked doc in the parent frame.</span></li>
+                    <li><code class="green">&nbsp;&#95;top</code><span>&#160;Opens the linked doc in the full body of the window.</span></li>
+                    <li><code class="green">&nbsp;name-of-iframe</code><span>&#160;Opens the linked doc in the named iframe.</span></li>
+                </ul>
+            </p>
+        </div>
 
         <h3 id="rel">Rel</h3>
-        <p>The rel attribute defines the relationship to the linked doc.  SEO uses this to get more info about the link.
-            <ul>
-                <li><code class="green">&nbsp;alternate</code><span>&#160;Provides a link to an alternate representation of the document (i.e. print page, translated or mirror)</span></li>
-                <li><code class="green">&nbsp;author</code><span>&#160;Provides a link to the author of the document</span></li>
-                <li><code class="green">&nbsp;bookmark</code><span>&#160;Permanent URL used for bookmarking</span></li>
-                <li><code class="green">&nbsp;external</code><span>&#160;Indicates that the referenced document is not part of the same site as the current document</span></li>
-                <li><code class="green">&nbsp;help</code><span>&#160;Provides a link to a help document</span></li>
-                <li><code class="green">&nbsp;license</code><span>&#160;Provides a link to licensing information for the document</span></li>
-                <li><code class="green">&nbsp;next</code><span>&#160;Provides a link to the next document in the series</span></li>
-                <li><code class="green">&nbsp;nofollow</code><span>&#160;Links to an unendorsed document, like a paid link. (&#34;nofollow&#34; is used by Google, to specify that the Google search spider should not follow that link)</span></li>
-                <li><code class="green">&nbsp;noreferrer</code><span>&#160;Requires that the browser should not send an HTTP referer header if the user follows the hyperlink</span></li>
-                <li><code class="green">&nbsp;noopener</code><span>&#160;Requires that any browsing context created by following the hyperlink must not have an opener browsing context</span></li>
-                <li><code class="green">&nbsp;prev</code><span>&#160;The previous document in a selection</span></li>
-                <li><code class="green">&nbsp;search</code><span>&#160;Links to a search tool for the document</span></li>
-                <li><code class="green">&nbsp;tag</code><span>&#160;A tag (keyword) for the current document</span></li><br>
-                <em>For more link attributes see <a href="anchor-attributes.html" rel="next">Anchor Attributes</a></em>
-            </ul>
-        </p>
-        <div style="height: 25vh; font-size: 200px; overflow:hidden; position:relative; z-index: -1; margin-top: -40px;">&#8595;&#8595;&#8595;&#8595;</div>
+        <div>
+            <p>The rel attribute defines the relationship to the linked doc.  SEO uses this to get more info about the link.
+                <ul>
+                    <li><code class="green">&nbsp;alternate</code><span>&#160;Provides a link to an alternate representation of the document (i.e. print page, translated or mirror)</span></li>
+                    <li><code class="green">&nbsp;author</code><span>&#160;Provides a link to the author of the document</span></li>
+                    <li><code class="green">&nbsp;bookmark</code><span>&#160;Permanent URL used for bookmarking</span></li>
+                    <li><code class="green">&nbsp;external</code><span>&#160;Indicates that the referenced document is not part of the same site as the current document</span></li>
+                    <li><code class="green">&nbsp;help</code><span>&#160;Provides a link to a help document</span></li>
+                    <li><code class="green">&nbsp;license</code><span>&#160;Provides a link to licensing information for the document</span></li>
+                    <li><code class="green">&nbsp;next</code><span>&#160;Provides a link to the next document in the series</span></li>
+                    <li><code class="green">&nbsp;nofollow</code><span>&#160;Links to an unendorsed document, like a paid link. (&#34;nofollow&#34; is used by Google, to specify that the Google search spider should not follow that link)</span></li>
+                    <li><code class="green">&nbsp;noreferrer</code><span>&#160;Requires that the browser should not send an HTTP referer header if the user follows the hyperlink</span></li>
+                    <li><code class="green">&nbsp;noopener</code><span>&#160;Requires that any browsing context created by following the hyperlink must not have an opener browsing context</span></li>
+                    <li><code class="green">&nbsp;prev</code><span>&#160;The previous document in a selection</span></li>
+                    <li><code class="green">&nbsp;search</code><span>&#160;Links to a search tool for the document</span></li>
+                    <li><code class="green">&nbsp;tag</code><span>&#160;A tag (keyword) for the current document</span></li>
+                    <br>
+                </ul>
+                <em>For more anchor attributes see <a href="anchor-attributes.html" rel="next">Anchor Attributes</a></em>
+            </p>
+        </div>
+
+        <div style="height: 25vh; font-size: 200px; overflow:hidden; position:relative; z-index: -1; margin-top: -40px;">&#8595;&#8595;&#8595;&#8595;
+        </div>
+
         <br>
+
         <h2 id="internal">Internal Links</h2>
-
-        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"#id-name" <span class="blue">&#62;</span></code><a href="#target">Clickable text is here</a><code class="blue">&#60;&#47;a&#62;</code></p>
         
-        <p>A link to an element within the same page.<br>The href value of an internal link must match the id of an element preceeded with a # .</p><p>If the id-name is omitted and just a # is present, the page will reload.  You can still apply a target to this, eg. <code class="green">&nbsp;&#95;blank</code></p>
+        <div>
+            <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"#id-name" <span class="blue">&#62;</span></code><a href="#target">Clickable text is here</a><code class="blue">&#60;&#47;a&#62;</code>
+            </p>
+                    
+            <p>A link to an element within the same page.<br>The href value of an internal link must match the id of an element preceeded with a # .</p><p>If the id-name is omitted and just a # is present, the page will reload.  You can still apply a target to this, eg. <code class="green">&nbsp;&#95;blank</code>
+            </p>
 
-        <p><a href="#" target="_blank">Try it here!</a></p>
+            <p><a href="#" target="_blank">Try it here!</a>
+            </p>
+        </div>
         <hr>
 
-        <p><em><strong>You can link to a specific section of an external link by combining the two as demonstarted <a href="https://www.w3schools.com/tags/tag_a.asp#midcontentadcontainer" target="_blank">here</a>.</strong></em></p>
-        <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"https://www.w3schools.com/tags/tag_a.asp#midcontentadcontainer" <span class="gold">target</span>=<span class="green">&quot;&#95;blank&quot;</span><span class="blue">&#62;</span></code></p>
+        <!-- Linking to id of another page -->
+        <div>
+            <p><em><strong>You can link to a specific section of an external link by combining the two as demonstarted <a href="https://www.w3schools.com/tags/tag_a.asp#midcontentadcontainer" target="_blank">here</a>.</strong></em>
+            </p>
+            <p><code><span class="blue">&lt;a <span class="gold">href</span><span class="green">"https://www.w3schools.com/tags/tag_a.asp#midcontentadcontainer" <span class="gold">target</span>=<span class="green">&quot;&#95;blank&quot;</span><span class="blue">&#62;</span></code>
+            </p>
+        </div>
 
         <hr>
-        <p><a href="../contents.html">Contents Page</a></p>
 
-
-        
+        <span><p><a href="../contents.html">Contents Page</a></p></span>
 
     </body>
 </html>

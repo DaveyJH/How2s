@@ -3,10 +3,7 @@
     <head>
         <title>Anchor Attributes</title>
       <link rel="stylesheet" href="../assets/css/style.css">
-      <style> div {
-          height: 400px;
-      }
-      </style>
+      
     </head>
     <body>
         <h1>Anchor Attributes</h1>
@@ -19,38 +16,99 @@
             <li><a href="#media">Media</a></li>
             <li><a href="#ping">Ping</a></li>
             <li><a href="#referrerpolicy">Referrer Policy</a></li>
+            <li><a href="#title">Title</a></li>
             <li><a href="#type">Type</a></li>
         </ul>
 
         <h2 id="download">Download</h2>
-        <div><p>Specifies that the target will be downloaded when a user clicks on the hyperlink.</p>
-            <p>The option value of the download attribute will be the new name of the file that is created.  If the value is omitted, the original file name is used.  <em>See second download link</em></p>
-            <p class="inset black">eg. <a href="../assets/css/images/pokeball.png" download="example">File Download</a>
+        <div>
+            <p>Specifies that the target will be downloaded when a user clicks on the hyperlink.
+            </p>
+            <p>The <em>optional</em> value of the download attribute will be the new name of the file that is created.  If the value is omitted, the original file name is used - <em>See second download link</em>
+            </p>
+            <br>
+            <p class="inset black"><code>&#60;a <span class="gold">href</span><span class="green">"../assets/css/images/pokeball.png" <span class="gold">download=</span><span class="green">&quot;<span class="high-light">example</span>&quot;</span>&#62;<span class="black">File Download</span>&#60;&#47;a&#62;</code>
                 <br>
                 <br>
-                <code>&#60;a <span class="gold">href</span><span class="green">"../assets/css/images/pokeball.png" <span class="gold">download=</span><span class="green">&quot;<span class="high-light">example</span>&quot;</span>&#62;<span class="black">File Download</span>&#60;&#47;a&#62;</code></p>
+            eg. <a href="../assets/css/images/pokeball.png" download="example">File Download</a>
+            </p>
+            
             
             <p>Look at the original file name in assets/css/images and the file name given when downloading.</p>
             <br>
             <p class="inset black">    <code>&#60;a <span class="gold">href</span><span class="green">"../assets/css/images/pokeball.png" <span class="gold">download=</span><span class="green">&quot;&quot;</span>&#62;<span class="black">File Download</span>&#60;&#47;a&#62;</code><br>
                 <br>
-            eg. <a href="../assets/css/images/pokeball.png" download="" title="See this?">File Download</a></p>
-                <p>    
-                <br>The filename is the same as the original that is being downloaded from.</p></div>
+            eg. <a href="../assets/css/images/pokeball.png" download="" title="See this? Find out how below">File Download</a></p>
+            <p>    
+            <br>The filename is the same as the original that is being downloaded from.</p>
+            <hr>
+        </div>
+            
         <h2 id="href">Href</h2>
-        <div></div>
+        <div>
+            <p>Provides the URL <span class="dark">[Uniform Resource Locator]</span> of the linked document.
+            </p>
+            <hr>
+        </div>
+
         <h2 id="hreflang">Href Lang</h2>
-        <div></div>
+        <div>
+            <p>Specifies the language of the linked resource.
+            </p>
+            <hr>
+        </div>
+
         <h2 id="media">Media</h2>
-        <div></div>
+        <div>
+            <p>Specifies what device or media format the linked doc is optimized for.  Attribute is purely advisory.</p>               
+                <p class="inset black"><code>&#60;a <span class="gold">href</span><span class="green">"../assets/css/images/pokeball.png" <span class="gold">media=</span><span class="green">&quot;screen and (min-color-index:256)</span>&quot;&#62;<span class="black">Document</span>&#60;&#47;a&#62;</code>
+            </p>
+            <p><em>See more <a href="https://www.w3schools.com/tags/att_a_media.asp" target="_blank">here.</a></em>
+            </p>
+            <hr>
+        </div>
+
         <h2 id="ping">Ping</h2>
-        <div></div>
+        <div>
+            <p>Ping attribute sends a short HTTP POST request to the specified URL.  Can be used for monitoring/tracking.
+            </p>
+            <p class="inset black"><code>&#60;a <span class="gold">href</span><span class="green">"../assets/css/images/pokeball.png" <span class="gold">ping=</span><span class="green">&quot;first-url&#160;second-url</span>&quot;&#62;<span class="black">Link</span>&#60;&#47;a&#62;</code>
+            
+            <hr>
+        </div>
+
         <h2 id=referrerpolicy">Referrer Policy</h2>
-        <div></div>
+        <div>
+            <p>Specifies which referrer information to send when the user clicks on the hyperlink.
+                <br>
+                <em>See more <a href="https://www.w3schools.com/tags/att_a_referrepolicy.asp" target="_blank">here.</a></em>
+            </p>
+            <hr>
+        </div>
+
+        <h2 id="title">Title</h2>
+        <div>
+            <p>Defines the title of a link. Displays as a tool tip if the link is hovered over.</p>
+                
+                <p class="inset black"><code>&#60;a <span class="gold">href</span><span class="green">"../contents.html" <span class="gold">title=</span><span class="green">&quot;Click to return to contents!</span>&quot;&#62;<span class="black">Hover over me!</span>&#60;&#47;a&#62;</code>
+                    <br>
+                    <br>
+                <a href="../contents.html" title="Click to return to contents!">Hover over me!</a>
+            </p>
+            <hr>
+            
+        </div>
+
         <h2 id="type">Type</h2>
-
-
+        <div>
+            <p>Specifies the Internet Media Type (formerly known as MIME type) of the linked document.
+                <br>
+                <em>See more <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank">here.</a></em>
+            </p>
+            
+        </div>
         <hr>
+
         <p><a href="../contents.html">Contents Page</a></p>
 
         </p>
