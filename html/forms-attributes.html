@@ -1,27 +1,60 @@
 <DOCTYPE! html>
 <html lang="en-US">
     <head>
-        <title>Template for How2s</title>
+        <title>Form Attributes</title>
         <link rel="stylesheet" href="../assets/css/style.css"
     </head>
     <body>    
         
         <h1>Form Attributes</h1>
         <p>Form attributes specify where to send the form data and how to send it.</p>
+        <ul style="font-size:small;">
+            <li><a href="#action">Action</a></li>
+            <li><a href="#method">Method</a></li>
+            <li><a href="#target">Target</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+                
         <p><code><span class="blue">&lt;form <span class="gold">action=</span><span class="green">&quot;https://send-my-data-here.xyz&quot; <span class="gold">method=</span><span class="green">&quot;POST&quot;</span><span class="blue">&#62;</span></code><br>
             <div style="padding-left: 40px; background-color: rgb(231, 200, 200)";><code style="background-color: inherit";><span class="blue">&lt;input <span class="gold">type=</span><span class="green">"email" <span class="gold">name=</span><span class="green">&quot;unique&quot;</span><span class="blue">&#62;</span></code><br>
                 <code style="background-color: inherit";><span class="blue">&lt;input <span class="gold">type=</span><span class="green">"submit"</span><span class="blue">&#62;</span></code>
             </div><br>
         <code><span class="blue">&lt;&#47;form&#62;</span></code></p>
-        <br>
-        <p>The <code class="gold">action</code> attribute has a value of the URL of where the data is to be sent.</p>
+        <h2 id="action">Action</h2>
+        <p>The <code class="gold">action</code> attribute has a value of the URL of where the data is to be sent. If the action attribute is omitted, the action is set to the current page.</p>
+        <h2 id="method">Method</h2>
         <p>The <code class="gold">method</code> attribute has a value of either <code class="green">GET</code> or <code class="green">POST</code>.</p>
         <ul><li><code class="green">post</code> is used to push data into the database.  eg Updating a contact number</li>
-            <li><code class="green">get</code> is used to fetch exisiting data. eg Check a username is valid</li>
+            <li><code class="green">get</code> is used to fetch exisiting data. eg Check a username is valid.</li><br>
+        
         </ul>
+        <em>Form data sent via GET uses URL variables, the resulting URL contains the data sent and so is not secure.  POST uses HTTP post transaction and so the data is not visible.  https means the server is secure.  See runnable examples and further notes <a href="https://w3schools.com/html/html_forms_attributes.asp" rel="help" target="_blank" title="W3 Schools - Form Attributes">here</a>.</em>
+        <h2 id="target">Target</h2>
 
-        <p>Data is sent via HTTP - Hyper Text Transfer Protocol</p>
+        <p>The <code class="gold">target</code> attribute specifies where to display the respone received after submitting the form. The default is <code class="green">&nbsp;&#95;self</code>.</p>
+            <ul><li><code class="green">&nbsp;&#95;blank</code><span> The respone is displayed in a new window.</span></li>
+                <li><code class="green">&nbsp;&#95;self</code><span> The respone is displayed in the current frame.</span></li>
+                <li><code class="green">&nbsp;&#95;parent</code><span> The response is displayed in the parent frame.</span></li>
+                <li><code class="green">&nbsp;&#95;top</code><span> The response if displayed in the full body of the current window.</span></li>
+                <li><code class="green">&nbsp;name-of-iframe</code><span> the response is displayed in the named iframe.</span></li>
+            </ul>
 
+        <p>The <code class="gold">action</code> 
+        
+        <hr> 
+
+        <p>See also: 
+            <ul>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="forms-inputs.html">Form Inputs</a></li>
+            </ul>
+        </p>
+        
         <hr>
         <p><a href="../contents.html">Contents Page</a></p>
 

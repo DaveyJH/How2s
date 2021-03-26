@@ -39,6 +39,9 @@ kbd {
     .blue {
         color: rgb(7, 7, 199);
     }
+    .black {
+        color: black;
+    }
 
 a {
     font-family: Verdana, sans-serif;
@@ -48,4 +51,16 @@ a {
 
 li {
     color: rgb(92, 9, 9);
+}
+
+.inset {
+    padding-left: 40px;
+}
+
+.low-light {
+    background-color: #7a2e2e;
+}
+
+.high-light {
+    background-color: #a460db;
 }
