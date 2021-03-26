@@ -2,7 +2,8 @@
 <html lang="en-US">
     <head>
         <title>Form Attributes</title>
-        <link rel="stylesheet" href="../assets/css/style.css"
+        <link rel="stylesheet" href="../assets/css/style.css">
+
     </head>
     <body>    
         
@@ -14,24 +15,28 @@
                 <li><a href="#action">Action</a></li>
                 <li><a href="#method">Method</a></li>
                 <li><a href="#target">Target</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#autocomplete">Autocomplete</a></li>
+                <li><a href="#novalidate">Novalidate</a></li>
+                <li><a href="#accept-charset">Accept-Charset</a></li>
+                <li><a href="#enctype">Enc Type</a></li>
+                <li><a href="#name">Name</a></li>
+                <li><a href="#rel">Rel</a></li>
             </ul>
             <hr>
         </div>
         <!-- code sample -->
         <div>        
-            <p><div style="background-color: rgba(99, 94, 94, 0.514);"><code style="background-color: rgba(99, 94, 94, 0)";><span class="blue">&lt;form <span class="gold">action=</span><span class="green">&quot;https://send-my-data-here.xyz&quot; <span class="gold">method=</span><span class="green">&quot;POST&quot;</span><span class="blue">&#62;</span></code></div>
+            <p>
+                <div style="background-color: rgba(99, 94, 94, 0.514);"><code style="background-color: rgba(99, 94, 94, 0)";><span class="blue">&lt;form <span class="gold">action=</span><span class="green">&quot;https://send-my-data-here.xyz&quot; <span class="gold">method=</span><span class="green">&quot;POST&quot;</span><span class="blue">&#62;</span></code>
+                </div>
                 <br>
                 <div class="inset wipeout";><code style="background-color: inherit";><span>&lt;input <span class="gold">type=</span><span class="green">"email" <span class="gold">name=</span><span class="green">&quot;unique&quot;</span><span class="blue">&#62;</span></code>
-                    <br>
-                    <code style="background-color: inherit";><span class="blue">&lt;input <span class="gold">type=</span><span class="green">"submit"</span><span class="blue">&#62;</span></code>
-                </div><br>
-            <div style="background-color: rgba(99, 94, 94, 0.514)";><code style="background-color: rgba(99, 94, 94, 0)";><span class="blue">&lt;&#47;form&#62;</span></code></p></div>
+                <br>
+                <code style="background-color: inherit";><span class="blue">&lt;input <span class="gold">type=</span><span class="green">"submit"</span><span class="blue">&#62;</span></code>
+                </div>
+                <br>
+                <div style="background-color: rgba(99, 94, 94, 0.514)";><code style="background-color: rgba(99, 94, 94, 0)";><span class="blue">&lt;&#47;form&#62;</span></code>
+            </p>
         </div>
 
         <h2 id="action">Action</h2>
@@ -63,11 +68,67 @@
                 <li><code class="green">&nbsp;&#95;top</code><span> The response if displayed in the full body of the current window.</span></li>
                 <li><code class="green">&nbsp;name-of-iframe</code><span> the response is displayed in the named iframe.</span></li>
             </ul>
+            <hr>
         </div>
         
+        <h2 id="autocomplete">Autocomplete</h2>
+        <div>
+            <p>The <code class="gold">autocomplete</code> attribute specifies whether a form should have autocomplete on.
+                <br>When it is on, the browser automatically completes the value based on values that the user has entered before.</p>
+                <p class="inset"><code>&#60;form <span class="gold">action=</span><span class="green">&#34;form-action-URL&#34; </span><span class="gold">autocomplete=</span><span class="green">&#34;on&#34;</span>&#62;</code></p>
+                <p><em>Try it <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_autocomplete" target="_blank">here.</a>
+                    <ul><li>Alan or John</li>
+                        <li>example1@123.com</li>
+                    </ul>
+                    </em>
+                </p>
+            <hr>
+        </div>
 
-            
-        <hr> 
+        <h2 id="novalidate">Novalidate</h2>
+        <div>
+            <p>The <code class="gold">novalidate</code> attribute is a boolean attribute. <em class="dark">(Requires no value, by giving the attribute - the value is true) </em>
+                <br>When applied, the form-data <span class="dark">(input)</span> should not be validated when the form is submitted.  
+                <br><span class="inset dark">eg.&#160;&#160;&#160; e-mail without @</span>
+            </p>
+            <p><em>Try it <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_novalidate" target="_blank">here.</a></em>
+            </p>
+
+            <hr>
+        </div>
+
+        <h2 id="accept-charset">Accept-Charset</h2>
+        <div>
+            <p>The <code class="gold">accept-charset</code> attribute specifies the character encoding used for the form submission.</p>
+            <hr>
+        </div>
+
+        <h2 id="enctype">Enc Type</h2>
+        <div>
+            <p>The <code class="gold">enctype</code> attribute specifies how the form data should be encoded when submitting to the server.
+            <br><em class="inset dark">Only for </span><code class="gold">method=<span class="green">&#34;post&#34;</span></code></em></p>
+            <hr>
+        </div>
+        
+        <h2 id="name">Name</h2>
+        <div>
+            <p>The <code class="gold">name</code> attribute specifies the name of the form.
+            </p>
+            <p><em>Try it <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_name" target="_blank">here.</a></em>
+                <br>
+                <span class="inset dark">Note the text in the runnable example.</span>
+            </p>
+            <hr>
+        </div>
+        
+        <h2 id="rel">Rel</h2>
+        <div>
+            <p>The <code class="gold">rel</code> attribute specifies the relationship between the current document and the linked document.
+            </p>
+            <p><em>See more <a href="https://www.w3schools.com/tags/att_form_rel.asp" target="_blank">here.</a></em>
+            <hr>
+        </div>            
+    
 
         <p>See also: 
             <ul>
