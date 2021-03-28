@@ -76,3 +76,23 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+.centered {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+.button {
+    display:inline-block;
+    background-color: seashell;
+    border-radius: 30%;
+    padding: 0 2 2px;
+    color: slategray;
+    border: solid 0.8px black;
+}
+
+.shadow {
+    box-shadow: 4px 4px;
+}

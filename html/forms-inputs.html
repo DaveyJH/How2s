@@ -37,10 +37,107 @@
         </div>
 
         <h2>Inputs</h2>
+        
+        <h3>Button</h3>
+        <div>
+            
+            <p>A push button with no default behaviour.  Displays the value of the vale attribute, empty by default.</p>
+            <!-- insert button and code xmp here. -->
+            <hr>
+        </div>
+        
+        <h3>Checkbox</h3>
+        <div>
+            
+            <p>A check box allowing single vales to be selected/deselected.</p>
+            <!-- check box xmp -->
+            <hr>
+        </div>
+        
+        <h3>Color</h3>
+        <div>
+
+            <p>A control for allowing the user to input a color.  Opens a color picker in supporting browsers.</p>
+            <!-- color pick xmp -->
+            <hr>
+        </div>
+
+        <h3>Date</h3>
+        <div>
+            <p>Allows the user to input a date consisting of year, month and day.  Opens a date picker in supporting browsers.</p>
+            <p>A default date can be entered in the value attribute with the format yyyy-mm-dd</p>
+            <!-- date xmp with default -->
+            <hr>
+        </div>
+
+        <h3>Datetime-Local</h3>
+        <div>
+            <p>A control for entering a date and time, with no time zone. Opens a date picker in supporting browsers.</p>
+            <p>A default value is entered as yyyy-mm-ddThh:mm</p>
+            <!-- xmp datetimelocal with default -->
+            <hr>
+        </div>
+
+        <h3>Email</h3>
+        <div>
+            <p>Text box with special validating parameters.  Displays relevant keyboard in supporting browsers.</p>
+            <!-- email xmp -->
+            <hr>
+        </div>
+
+        <h3>File</h3>
+        <div>
+            <p>Allows the user to select a file from their local directory.  The accept attribute defines which types of file the input will accept.</p>
+            <!-- file example -->
+            <hr>
+        </div>
+
+        <h3>Hidden</h3>
+        <div>
+            <p>A control that is not displayed but whose value is submitted with the form information.
+                <br>A hidden input may be edited in developer tools <span class="dark"><em>- not suitable for security.</em></span>
+            </p>
+            <!-- hidden example -->
+            <p class="inset black"><code>&#60;input <span class="gold">type=</span><span class="green">"hidden" </span><span class="gold">&#160;alt=</span><span class="green">&#34;Submit via Pokeball&#34;</span>&#62;</code>
+            </p>
+            
+            <hr>
+        </div>
+
+        <h3>Image</h3>
+        <div>
+            <p>A graphical submit button.  Display an image with the src attribute, alt attribute will display if the image is missing.
+                <br>Height and width attributes can be applied.
+            </p>
+            <!-- image example -->
+            <p class="inset black"><code>&#60;input <span class="gold">type=</span><span class="green">"image" </span><span class="gold">src=</span><span class="green">&#34;../assets/css/images/pokeball.png&#34;</span><span class="gold">&#160;alt=</span><span class="green">&#34;Submit via Pokeball&#34;</span>&#62;</code>
+                <br>
+                </p>
+            <input class="centered" type="image" src="../assets/css/images/pokeball.png" alt="Submit via Pokeball" height="90px;">
+            <br style="line-height: 60%;">
+            <div class="centered"><div class="button shadow">Submit</div></div>
+           
+            <p><em><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image" target="_blank">More Here</a></em>
+            </p>
+            <hr>
+        </div>
+
+
+
+
+
+
+
             <div style="height: 700px;"></div>
 
 
 
+            <!-- A type="text" attribute provides a text input field and accepts any letters, numbers and special characters from the keyboard as it's content.
+A type="submit" attribute creates a button to submit the form.
+A type="radio" attribute creates a radio button for a user to click.
+A type="checkbox" attribute creates a checkbox for a user to select.
+A type="password" attribute creates a text box and replaces any characters entered into it with *.
+A type="date" attribute creates an input field that shows a date-picker when clicked. -->
 
 
 
@@ -80,7 +177,10 @@
 
 
 
-        <h2 id="form-atts">Attributes</h2>
+
+
+
+        <h2 id="input-atts">Input Attributes</h2>
         <ul><li><code class="gold">value</code></li>
             <li><code class="gold">readonly</code></li>
             <li><code class="gold">disabled</code></li>
