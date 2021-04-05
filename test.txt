@@ -1,3 +1,5 @@
 Adding first text before saving and not saving.
 
 Adding second text having 'staged' after first line (no save) and now saving.
+
+Trying to work out color on vs code requires additional change to be saved.
