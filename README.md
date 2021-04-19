@@ -1,6 +1,10 @@
 # DaveJH How2s
 ## For self reference and reminders.
->What a great thing to be able to do for myself.
+*What a great thing to be able to do for myself.*
+
+These pages are not really intended for others.  There are many credits missing and multiple mistakes.  The styling is very basic.
+
+**There is a downloadable unity game within the pages written by me**
 #
 ## Contents
 - [Contents](contents.html)<link rel="stylesheet" href="../assets/css/style.css">
