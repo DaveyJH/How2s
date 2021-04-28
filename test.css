@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+html {
+    font-size: 62.5%
+}
+body {
+    font-size: 2.5rem;
+}
+nav{
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    left: 2rem;
+}
+nav li:hover {
+    cursor: pointer;
+}
+nav li ul {
+    visibility: hidden;
+    display: none;
+}
+/* need to check if this will work with mobile, does it need active pseudo class */
+nav li:hover, nav li:hover ul, nav li ul:hover {
+    visibility: visible;
+    display: block;
+    background-color: white;
+}
