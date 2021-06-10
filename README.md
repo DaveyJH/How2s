@@ -1,4 +1,7 @@
 # DaveJH How2s
+
+I started writing these pages as a helpful tool for myself while waiting for a section of my coding course to be unlocked. I was unaware of sites like MDN at the time and find those to be far more helpful. I may, in time, update these pages as 'quick reference' guides, tailored to my thought processes. For now, they stay here as another reminder of where it all began.
+
 ## For self reference and reminders.
 *What a great thing to be able to do for myself.*
 
